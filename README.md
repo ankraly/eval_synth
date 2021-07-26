@@ -1,6 +1,8 @@
 # eval_synth
 post-pilot version of speech synthesis evaluation task
 
+before working with these files, should go into audio_prep.py & write_exp.py and change the static variables for default system names in the event that they are different from what's currently in the scripts
+
 **audio_prep.py** -------------------------------------------
 * start:
     - "audio" folder with list of individual system & human stimuli (.wav)
@@ -32,3 +34,6 @@ write_exp.py(ID="time",split_gold=1, **kwargs{systems,num})
         - minimal condition = gold_human, gold_monoTTS, baseline OR gold_50/50, baseline
         - system shuffles list of all experimental systems and chooses [num] of them
     - if neither num nor ls are specified, will create experiment with 50/50 gold and baseline
+
+**make_stimlist.py** ---------------------------------------------
+old files to create the stimlists (stimlist.txt & stimlist_long.txt), self-contained
