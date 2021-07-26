@@ -20,7 +20,7 @@ post-pilot version of speech synthesis evaluation task
       
 *running write_exp.py:*
 
-  **write_exp.py(ID="time",split_gold=1,**kwargs{ls,num})**
+write_exp.py(ID="time",split_gold=1, **kwargs{ls,num})
  
 * ID determines sequence name, will default to "YYYYMMDD_HHMMSS.txt"
 * split_gold determines whether the "gold" condition is 50/50 human/monoTTS or 2 entire separate assortiments of human and monoTTS
