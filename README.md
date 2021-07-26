@@ -20,15 +20,15 @@ post-pilot version of speech synthesis evaluation task
       
 *running write_exp.py:*
 
-write_exp.py(ID="time",split_gold=1, **kwargs{ls,num})
+write_exp.py(ID="time",split_gold=1, **kwargs{systems,num})
  
 * ID determines sequence name, will default to "YYYYMMDD_HHMMSS.txt"
 * split_gold determines whether the "gold" condition is 50/50 human/monoTTS or 2 entire separate assortiments of human and monoTTS
     - (default is 50/50 as that is smaller)
-* ls & num specify the array/number of experimental systems to be used, both optional
-    - ls should contain experimental systems' IDs as present in filenames
+* systems & num specify the array/number of experimental systems to be used, both optional
+    - systems (list) should contain experimental systems' IDs as present in filenames
         - gold and baseline will be added to system list internally later on
-    - num must >= 3 (or >= 2 if split_gold==1)
+    - num (int) must >= 3 (or >= 2 if split_gold==1)
         - minimal condition = gold_human, gold_monoTTS, baseline OR gold_50/50, baseline
         - system shuffles list of all experimental systems and chooses [num] of them
     - if neither num nor ls are specified, will create experiment with 50/50 gold and baseline
