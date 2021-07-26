@@ -35,5 +35,5 @@ write_exp.py(ID="time",split_gold=1, **kwargs{systems,num})
         - system shuffles list of all experimental systems and chooses [num] of them
     - if neither num nor ls are specified, will create experiment with 50/50 gold and baseline
 
-**make_stimlist.py** ---------------------------------------------
+**make_stimlist.py** ---------------------------------------------  
 old files to create the stimlists (stimlist.txt & stimlist_long.txt), self-contained
