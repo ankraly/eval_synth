@@ -1,0 +1,452 @@
+
+
+------------------------------
+lmeds_interface
+------------------------------
+
+====================
+loading_progress
+====================
+
+Chargement en cours...
+
+====================
+metadata_description
+====================
+
+This is a first-pass draft of a speech synthesis evaluation. 
+
+====================
+progress
+====================
+
+Progrès
+
+------------------------------
+text_page
+------------------------------
+
+====================
+first_page
+====================
+
+Merci d'avoir accepté de participer à cette expérience.
+
+Vous allez d'abord remplir un sondage sur votre expérience avec le français ainsi que d'autres langues.<br />
+
+Vous compléterez ensuite une phase d'entraînement afin de vous familiariser avec l'échelle d'évaluation.<br />
+
+Enfin, vous allez évaluer plusieurs systèmes de synthèse vocale.<br /><br />
+
+Au total, cela devrait prendre entre X et Y minutes.
+
+====================
+presurvey_instructions
+====================
+
+Sur la prochaine page, vous allez remplir un sondage démographique. Ceci 
+nous aidera avec l'interprétation des résultats finaux.<br /><br />
+
+====================
+remote_experiment_notice
+====================
+
+Vous allez participer à une expérience qui sert à améliorer la technologie de synthèse vocale. Veuillez s'il vous plaît:<br /><br />
+
+<b>1)</b> Bien lire toutes les instructions.<br /><br />
+<b>2)</b> Prêter attention à chacun des fichiers audio que vous allez entendre.<br /><br />
+
+====================
+rating_task_instructions1
+====================
+
+Vous allez entendre des exemples de parole (typiquement des syllabes courts) produits par un système de synthèse vocale 
+qui cherche à imiter de très près la prononciation d'un locuteur humain du français.<br />
+Nous appellons ces voix des <b>voix d'apprentis</b>.<br /><br />
+
+Sur chaque page de l'expérience, vous allez entendre un fichier audio avec deux voix.<br /> 
+Vous allez entendre la <b>voix originale</b> en premier, suivi de la <b>voix d'apprenti</b>.
+L'apprenti tentera, à chaque fois, d'imiter l'accent particulier de la voix originale.<br /><br />
+
+Veuillez prêter attention: il est <b>impossible</b> de réécouter les fichiers audio.<br /><br />
+
+====================
+rating_task_instructions2
+====================
+
+Sur chaque page, une échelle de 1 a 5 apparaîtra. Notez la performance de la <b>voix d'apprenti</b>:</br></br>
+Notez-la <b>"5"</b> si la <b>voix d'apprenti</b> imite parfaitement la prononciation de la <b>voix originale</b>.<br /><br />
+Notez-la <b>"1"</b> si la <b>voix d'apprenti</b> produit un son complètement différent de la <b>voix originale</b>.<br /><br />
+
+Il peut y avoir des exemples qui ne ressemblent pas à de la parole, ou qui ne soient produits que partiellement. Dans ces cas, 
+vous devriez sélectionner l'option <b>exemple corrompu.</b><br /><br />
+
+Encore une fois, soyez conscient qu'il est <b>impossible</b> de réécouter les fichiers audio plus d'une fois.<br /><br />
+
+====================
+sentence_instructions
+====================
+
+Vous allez maintenant compléter une tâche de jugement différente.<br /><br />
+
+Vous allez entendre des exemples de <b>phrases entières</b> prononcées par la <b>voix d'apprenti</b>.<br /><br />
+Vous verez la même échelle de 1 a 5 que vous aviez sur les pages précédentes.<br />
+Notez le niveau auquel la voix semble naturelle.
+
+====================
+training_instructions
+====================
+
+Vous allez premièrement compléter une phase d'entraînement. Vous serez invité à
+juger des exemples types, et, après chaque exemple, vous verrez la réponse souhaitée,
+ainsi qu'une explication. 
+
+====================
+training_1
+====================
+
+Voici le premier exemple d'entraînement.
+
+====================
+training_2
+====================
+
+Voici le deuxième exemple d'entraînement.
+
+====================
+feedback_1_fafi
+====================
+
+Cela était un exemple de qualité <b>1</b>.<br />
+La voix originale a dit "fa", mais l'apprenti a dit "fi".
+
+====================
+feedback_1_vama
+====================
+
+Cela était un exemple de qualité <b>1</b>.<br />
+La voix originale a dit "va", mais l'apprenti a dit "ma".
+
+====================
+feedback_3-4
+====================
+
+Cela était un exemple de qualité <b>3</b> ou <b>4</b>.<br />
+L'apprenti avait un accent différent.
+
+====================
+feedback_5
+====================
+
+Cela était un exemple de qualité <b>5</b>.<br />
+L'apprenti a bien imité la prononciation de la voix originale.
+
+====================
+feedback_missing
+====================
+
+Cela était un exemple d'<b>exemple corrompu</b>.<br />
+La voix originale a dit "chou", mais l'apprenti a dit "ou": il a manqué une partie de la parole.
+
+====================
+feedback_garbled
+====================
+
+Cela était un exemple d'<b>exemple corrompu</b>.<br />
+Le son produit ne ressemble pas à la parole.
+
+====================
+feedback_quality
+====================
+
+Cela était un exemple de qualité <b>4</b> ou <b>5</b>.<br />
+La qualité de l'audio était désagréable, mais la prononciation était bonne.
+
+====================
+go_forth
+====================
+
+Vous avez complété la phase d'entraînement.<br />
+Vous allez procéder à l'expérience principale.
+
+====================
+congrats
+====================
+
+Vous avez complété l'étude.
+
+====================
+debrief
+====================
+
+L'objectif de cette étude était d'évaluer la qualité de systèmes de synthèse de voix humaines.<br /> 
+Les prononciations que vous avez jugées étaient un mélange de parole synthétique (produite par ordi) et
+parole humaine.<br /><br />
+
+Veuillez appuyer sur "Continuer".
+
+------------------------------
+media_test
+------------------------------
+
+====================
+error_verify_media
+====================
+
+Vous devez marquer un des choix avant de continuer
+
+====================
+mediaTest_affirm
+====================
+
+Je peux entendre l'audio
+
+====================
+mediaTest_reject
+====================
+
+Je ne peux pas entendre l'audio
+
+====================
+mediaTest_text
+====================
+
+Veuillez écouter le fichier audio et indiquer si vous pouvez
+bien l'entendre. <br /><br />
+
+Vous pouvez aussi utiliser ce moment pour ajuster votre volume.
+
+------------------------------
+consent
+------------------------------
+
+====================
+consent
+====================
+
+J'accepte
+
+====================
+consent_query
+====================
+
+Est-ce que vous acceptez de participer à cette étude?
+
+====================
+consent_title
+====================
+
+Consentement éclairé
+
+====================
+consent
+====================
+
+<!--
+<b>Auteurs:</b> John & Jane Doe <br /><br />
+
+<b>Objectif:</b> je suis sûr qu'il y en a un<br /><br />
+
+S'il vous plaît, sauvegardez une copie de ce formulaire.<br /><br />
+
+J'ai lu et compris le formulaire de consentement ci-dessus, je certifie
+que j'ai au moins 18 ans, et en appuyant le bouton de soumission pour
+soumettre le sondage, j'indique mon désire de participer dans cette étude
+de manière bénévole.<br /><br />
+-->
+(FORMULAIRE DE CONSENTEMENT)
+
+====================
+dissent
+====================
+
+Je n'accepte pas
+
+====================
+error_consent_or_dissent
+====================
+
+Pour continuer, vous devez choisir une des deux options.
+
+------------------------------
+media_choice
+------------------------------
+
+====================
+rating_instr
+====================
+
+Vouz allez entendre la <b>voix originale</b> (être humain) en premier, suivie de la <b>voix d'apprenti.</b> 
+Votre tâche est de juger à quel point la <b>voix d'apprenti</b> imite bien la prononciation originale.
+
+====================
+rating_sent
+====================
+
+Vous allez entendre des phrases entières, prononcées seulement par la <b>voix d'apprenti.</b>
+Votre tâche est de juger la <b>qualité "naturelle"</b> de l'audio.
+
+====================
+0
+====================
+
+<p style="text-align:center;">
+Exemple corrompu
+</p>
+
+====================
+1
+====================
+
+1 - pas pareil
+
+====================
+2
+====================
+
+2
+
+====================
+3
+====================
+
+3
+
+====================
+4
+====================
+
+4
+
+
+====================
+5
+====================
+
+5 - imitation parfaite
+
+
+------------------------------
+end
+------------------------------
+
+====================
+test_complete
+====================
+
+Vous avez terminé cette expérience. Merci d'y avoir participé.<br /><br />
+Si vous venez de MTurk, veuillez rentrer le texte bleu dans MTurk pour enregistrer votre participation. <br /><br />
+<font color="blue">polar bear</font><br /><br />
+Bonne journée!
+
+------------------------------
+login_bad_user_name
+------------------------------
+
+====================
+error_user_name_exists
+====================
+
+<font color="red"> ERREUR: Le nom d'utilisateur '%s' existe déjà ou
+n'est pas valide. Si vous avez déjà participé à cette étude, vous ne
+pouvez pas participer une deuxième fois. Si vous avez dû recommencer,
+veuillez utiliser un nom d'utilisateur similaire au précedent
+(par ex. ajouter un "1" à la fin).</font>
+
+------------------------------
+media_test_end
+------------------------------
+
+====================
+mediaTest_no_audio
+====================
+
+Vous avez indiqué que vous n'entendez pas le fichier audio. Vous ne pouvez
+pas participer à cette étude. Merci pour votre temps.
+
+------------------------------
+consent_end
+------------------------------
+
+====================
+consent_opt_out
+====================
+
+Vous avez élu de ne pas participer dans cette étude. Merci pour votre temps.
+<br /><br /> 
+
+------------------------------
+lmeds_interface,boundary_and_prominence
+------------------------------
+
+====================
+continue_button
+====================
+
+Continuer
+
+------------------------------
+lmeds_interface,login,login_bad_user_name
+------------------------------
+
+====================
+back_button_warning
+====================
+
+<font color="red">En appuyant sur "retour" ou "actualiser", vous invalidez cette session d'expérience.</font>
+
+------------------------------
+login,text_page,consent,login_bad_user_name
+------------------------------
+
+====================
+title
+====================
+
+Un brouillon d'évaluation
+
+------------------------------
+login,login_bad_user_name
+------------------------------
+
+====================
+error_blank_name
+====================
+
+Veuillez entrer un User ID unique, sans espaces. (e.g. k1234j ou jean_doe345)
+
+====================
+unsupported_warning
+====================
+
+
+
+====================
+user_name_text
+====================
+
+Veuillez entrer un User ID unique, sans espaces. (e.g. k1234j ou jean_doe345)
+
+------------------------------
+media_test,media_list,media_choice,boundary_and_prominence,boundary,prominence,syllable_marking,media_slider
+------------------------------
+
+====================
+error_must_play_audio
+====================
+
+Vous devez écouter au fichier audio au moins %d fois.
+
+====================
+error_must_play_audio_at_least
+====================
+
+Vous devez écouter au fichier audio au moins %d fois.
+
+====================
+play_button
+====================
+
+Écouter
+
+

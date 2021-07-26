@@ -1,0 +1,67 @@
+Sexe:
+Choice Masculin, Féminin
+
+Age:
+Textbox
+
+Avez-vous des troubles d'audition?
+Textbox
+
+Avez-vous des troubles de parole?
+Textbox
+
+Pays de naissance:
+Choice France, Autre 
+Textbox
+
+<sublist>
+Si France, indiquez la région:
+Textbox
+
+Si autre, à quel âge avez-vous déménagé à la France?
+Textbox
+</sublist>
+
+Niveau d'éducation complété:
+Choicebox Secondaire, Université (incomplet), Baccalauréat, Maitrise, Doctorat
+
+Occupation
+Textbox
+
+Quelles langues parlez-vous comme langues maternelles?
+Textbox
+
+Habitez-vous avec des gens qui parlent d'autres langues?
+Choice Oui, Non
+
+<sublist>
+Si oui, avec qui et quelles langues parlent-ils?
+Textbox
+</sublist>
+
+Avez-vous déja étudiée une langue étrangère?
+Choice Oui, Non
+
+<sublist>
+Si oui, quelle(s) langue(s) et au quel niveau?
+Textbox
+</sublist>
+
+Avez-vous habité dans un pays (> 4 semaines) ou on parle une langue autre que votre langue maternelle?
+Choice Oui, Non
+
+<sublist>
+Si oui, quel pays et quelle langue?
+Textbox
+
+À quel âge y avez-vous habité?
+Textbox
+
+Pendant combien de temps y avez-vous habité?
+Textbox
+
+Avez-vous parlé la langue de ce pays lorsque vous y avez habité?
+Choice Oui, Non
+</sublist>
+
+
